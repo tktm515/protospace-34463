@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ProtoSpace</title>
+    <title>Mool Time</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -16,7 +16,7 @@
         <div class="nav">    
           <div class="nav__left">
           
-            <%= link_to image_tag("logo.png", class: :logo), root_path %>
+            <%= link_to image_tag("https://r70.cooltext.com/rendered/cooltext378961461101894.png", class: :logo), root_path %>
           </div>
           <%# ログインしているときは以下を表示するようにしましょう %>
           <% if user_signed_in? %>
@@ -33,6 +33,7 @@
           <% end %>
         </div>
       </div>
+    </div>
     </header>
     <%= yield %>
     <footer class="footer">
